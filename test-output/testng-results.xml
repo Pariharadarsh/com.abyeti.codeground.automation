@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78" started-at="2018-03-30T09:46:15Z" finished-at="2018-03-30T09:46:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78" started-at="2018-03-30T09:46:15Z" finished-at="2018-03-30T09:46:15Z">
+      <class name="testngpractise.DependOnMethod">
+        <test-method status="PASS" signature="A()[pri:0, instance:testngpractise.DependOnMethod@131ef10]" name="A" duration-ms="16" started-at="2018-03-30T09:46:15Z" finished-at="2018-03-30T09:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="PASS" signature="m()[pri:0, instance:testngpractise.DependOnMethod@131ef10]" name="m" duration-ms="3" started-at="2018-03-30T09:46:15Z" finished-at="2018-03-30T09:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+        <test-method status="PASS" signature="a()[pri:0, instance:testngpractise.DependOnMethod@131ef10]" name="a" duration-ms="5" started-at="2018-03-30T09:46:15Z" depends-on-methods="testngpractise.DependOnMethod.A" finished-at="2018-03-30T09:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="b()[pri:0, instance:testngpractise.DependOnMethod@131ef10]" name="b" duration-ms="3" started-at="2018-03-30T09:46:15Z" depends-on-methods="testngpractise.DependOnMethod.m" finished-at="2018-03-30T09:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+      </class> <!-- testngpractise.DependOnMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
